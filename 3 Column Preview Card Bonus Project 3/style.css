@@ -1,0 +1,124 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+h3 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 0.938rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 1.33em;
+    line-height: 1.8;
+}
+
+.bright__orange {
+    background-color: var(--bright-orange);
+    border-radius: 10px 10px 0 0;
+}
+
+.bright__orange button {
+    color: var(--bright-orange);
+}
+
+.dark__cyan {
+    background-color: var(--dark-cyan);
+}
+
+.dark__cyan button {
+    color: var(--dark-cyan);
+}
+
+.very__dark__cyan {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 10px 10px;
+}
+
+.very__dark__cyan button {
+    color: var(--very-dark-cyan);
+}
+
+.container {
+    padding: 1.33em;
+}
+
+.car {
+    padding: 2em;
+}
+
+.car img {
+    margin-bottom: 1.667em;  
+}
+
+
+button{
+    font-family: "Lexend Deca", sans-serif;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 2em;
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+    background-color: transparent;  
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+footer { 
+    font-size: 11 px; 
+    text-align: center; 
+}
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+footer p {
+    color: black;
+    margin-bottom: auto;
+}
+
+
+@media (min-width: 700px) {
+    .container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        max-height: auto;
+    }
+
+    .bright__orange {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .very__dark__cyan {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .car {
+        padding: 3.33em;
+    }
+
+    p {
+        margin-bottom: 3.33em;
+    }
+}
