@@ -9,7 +9,6 @@
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 
 
@@ -31,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Jud1th1/-3-Column-Preview
+- Live Site URL: https://cheerful-shortbread-bd3083.netlify.app/
 
 ## My process
 
@@ -76,10 +75,5 @@ button{
 
 - More practice with flexbox would be useful since it did not display how I was hoping in the end. https://flexboxfroggy.com/
 
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 
